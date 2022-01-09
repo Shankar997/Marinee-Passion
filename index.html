@@ -1,0 +1,563 @@
+<!Doctype html>
+<html>
+   <head>
+      <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <link rel="icon" type="icon.png" href="img/Favion.png" sizes="196x196">
+      <!-- maginifire css file  -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link href="https://fonts.googleapis.com/css2?family=Muli:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+      <!-- Font style -->
+      <link rel="stylesheet" href="fonts/stylesheet.css">
+      <!-- Boostrap Css -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+      <!-- Boostrap Js -->
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" />
+      <link rel="stylesheet" href="css/style.css">
+   </head>
+   <body>
+      <nav class="navbar navbar-expand-lg navbar-light">
+         <div class="container">
+            <a class="navbar-brand" href="#"><img src="img/logo.png"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+               <ul class="navbar-nav">
+                  <li class="nav-item active">
+                     <a class="nav-link" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#about-us">About us</a>
+                  </li>
+                  <li class="nav-item">  
+                     <a class="nav-link" href="#track_cruise">Tracking</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#Special-offers">Packages</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#latest-news">News</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#our-partner">Partner</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#contact-form">Contact us</a>
+                  </li>
+                  <button class="btn"><i class="las la-user"></i>Log In</button>
+               </ul>
+            </div>
+         </div>
+      </nav>
+      <section id="banner-slider">
+         <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+            <ol class="carousel-indicators">
+               <li data-target="#carouselExampleFade" data-slide-to="0" class="active"></li>
+               <li data-target="#carouselExampleFade" data-slide-to="1"></li>
+               <li data-target="#carouselExampleFade" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+               <div class="carousel-item active">
+                  <img src="img/img-1.jpg" class="d-block w-100" alt="">
+                  <div class="carousel-caption d-none d-md-block">
+                     <h1>Amazing cruises</h1>
+                     <p>More then 10,000 cruises worldwide</p>
+                  </div>
+               </div>
+               <div class="carousel-item">
+                  <img src="img/img-2.jpg" class="d-block w-100" alt="">
+                  <div class="carousel-caption d-none d-md-block">
+                     <h1>Amazing cruises</h1>
+                     <p>More then 10,000 cruises worldwide</p>
+                  </div>
+               </div>
+               <div class="carousel-item">
+                  <img src="img/img-3.jpg" class="d-block w-100" alt="">
+                  <div class="carousel-caption d-none d-md-block">
+                     <h1>Amazing cruises</h1>
+                     <p>More then 10,000 cruises worldwide</p>
+                  </div>
+               </div>
+            </div>
+            <img class="bottom-layer-bg" src="img/bottom-layer.png">           
+         </div>
+         <div class="filter-tab">
+            <div class="container">
+               <div class="tbs">
+                  <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                     <li class="nav-item" role="presentation">
+                        <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Return</a>
+                     </li>
+                     <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">One Way</a>
+                     </li>
+                  </ul>
+                  <div class="tab-content" id="pills-tabContent">
+                     <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                        <div class="row">
+                           <div class="col-md-4">
+                              <form class="form-inline">
+                                 <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="From">
+                                 </div>
+                                 <div class="form-group">
+                                    <input type="text" class="form-control"placeholder="To">
+                                 </div>
+                              </form>
+                           </div>
+                           <div class="col-md-4">
+                              <form class="calender">
+                                 <div class="form-group">
+                                    <i class="las la-calendar"></i>
+                                    <input type="text" class="form-control" placeholder="24-02-21">
+                                    <input type="text" class="form-control" placeholder="15-04-21">
+                                 </div>
+                              </form>
+                           </div>
+                           <div class="col-md-3">
+                              <form class="sel_area">
+                                 <div class="form-group">
+                                    <i class="las la-user"></i>
+                                    <select class="form-control sel-txt">
+                                       <option>1 Adult, Economy</option>
+                                       <option>...</option>
+                                       <option>...</option>
+                                    </select>
+                                 </div>
+                              </form>
+                           </div>
+                           <div class="col">
+                              <button class="search"><i class="las la-search"></i></button>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section id="about-us">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-6 left-section">
+                  <img src="img/img-4.jpg" id="left-img">
+                  <div id="video_section">
+                     <div class="video-content video-bg">
+                        <video id="video" width="255" height="255" poster="img/Video-img.jpg" class="">
+                           <source src="img/demo.mp4" type="video/webm">
+                           <source src="http://techslides.com/demos/sample-videos/small.ogv" type="video/ogg">
+                           <source src="http://techslides.com/demos/sample-videos/small.mp4" type="video/mp4">
+                           <source src="http://techslides.com/demos/sample-videos/small.3gp" type="video/3gp">
+                        </video>
+                        <button type="button" id="play_button"><i class="las la-play-circle"></i></button>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-6">
+                  <h1 class="headings">About Us</h1>
+                  <p class="p-text">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.</p>
+                  <div class="info-area">
+                     <p class="info-txt">“It is a long established fact that a reader will be distracted by the readable     content of a page when looking at its layout.”</p>
+                  </div>
+                  <button class="r_more">Read More<i class="las la-arrow-right"></i></button>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section id="track_cruise">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-7">
+                  <div class="left-track">
+                     <h1 class="headings">Live cruise ship tracker</h1>
+                     <p class="p-text">We’ve got you covered when it comes to checking where cruise ships currently are located around the world. Feel free to use this real-time cruise ship tracker to know where your desired vessel is. You’ll be able to see if a cruise ship is docked in port, anchored and even live speed data in real time!</p>
+                  </div>
+               </div>
+               <div class="col-md-5 track-right-form-main">
+                  <div class="right-track-form">
+                     <h1 class="headings">Track cruise</h1>
+                     <form>
+                        <div class="form-group">
+                           <input type="text" class="form-control" id="cruise" placeholder="Cruise number">
+                        </div>
+                        <span class="or-txt text-center">OR</span>
+                        <div class="form-group">
+                           <input type="text" class="form-control" id="ticket" placeholder="Ticket number">
+                        </div>
+                        <button type="submit" class="btn btn-default">Track Cruise</button>
+                     </form>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <img class="bottom-layer-bg" src="img/bottom-layer.png">
+      </section>
+      <section id="Special-offers">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <h1 class="headings">Special Offer</h1>
+                  <a href="#" class="view-all">View All<i class="las la-arrow-right"></i></a>
+                  <p class="p-text">It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
+               </div>
+            </div>
+         </div>
+         <div class="container">
+            <div class="owl-carousel owl-theme">
+               <div class="item">
+                  <div class="card">
+                     <img src="img/owl-img-1.jpg" class="card-img-top" alt="...">
+                     <div class="card-body">
+                        <p class="card-text">7 days in paradise – the itinerary</p>
+                        <h5 class="card-title prices">$250</h5>
+                        <span class="card-icon"><i class="las la-clock"></i>7 Days</span>
+                        <span class="card-icon"><i class="las la-calendar"></i>Jan 18 - Jan 25</span>
+                     </div>
+                  </div>
+               </div>
+               <div class="item">
+                  <div class="card">
+                     <img src="img/owl-img-2.jpg" class="card-img-top" alt="...">
+                     <div class="card-body">
+                        <p class="card-text">7 days in paradise – the itinerary</p>
+                        <h5 class="card-title prices">$456</h5>
+                        <span class="card-icon"><i class="las la-clock"></i>7 Days</span>
+                        <span class="card-icon"><i class="las la-calendar"></i>Jan 18 - Jan 25</span>
+                     </div>
+                  </div>
+               </div>
+               <div class="item">
+                  <div class="card">
+                     <img src="img/owl-img-3.jpg" class="card-img-top" alt="...">
+                     <div class="card-body">
+                        <p class="card-text">7 days in paradise – the itinerary</p>
+                        <h5 class="card-title prices">$842</h5>
+                        <span class="card-icon"><i class="las la-clock"></i>7 Days</span>
+                        <span class="card-icon"><i class="las la-calendar"></i>Jan 18 - Jan 25</span>
+                     </div>
+                  </div>
+               </div>
+               <div class="item">
+                  <div class="card">
+                     <img src="img/owl-img-1.jpg" class="card-img-top" alt="...">
+                     <div class="card-body">
+                        <p class="card-text">7 days in paradise – the itinerary</p>
+                        <h5 class="card-title prices">$250</h5>
+                        <span class="card-icon"><i class="las la-clock"></i>7 Days</span>
+                        <span class="card-icon"><i class="las la-calendar"></i>Jan 18 - Jan 25</span>
+                     </div>
+                  </div>
+               </div>
+               <div class="item">
+                  <div class="card">
+                     <img src="img/owl-img-3.jpg" class="card-img-top" alt="...">
+                     <div class="card-body">
+                        <p class="card-text">7 days in paradise – the itinerary</p>
+                        <h5 class="card-title prices">$842</h5>
+                        <span class="card-icon"><i class="las la-clock"></i>7 Days</span>
+                        <span class="card-icon"><i class="las la-calendar"></i>Jan 18 - Jan 25</span>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section id="upcoming-event">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12 text-center">
+                  <h1 class="headings">Upcoming events</h1>
+               </div>
+            </div>
+            <div class="owl-carousel owl-theme">
+               <div class="item">
+                  <div class="event-area-1">
+                     <div class="event-date"><span>26</span> <small>Feb.</small></div>
+                     <div class="event-details">
+                        <p class="ev-title">Cruise Event Land and Sea Vacation</p>
+                        <p class="event-txt">Effective May 25, 2020 until further notice (all operated by speedboat)</p>
+                        <span class="event-time">8:00 am  -  11:00 am</span>
+                     </div>
+                  </div>
+               </div>
+               <div class="item">
+                  <div class="event-area-2">
+                     <div class="event-date"><span>08</span> <small>March</small></div>
+                     <div class="event-details">
+                        <p class="ev-title">Cruise Event Land and Sea Vacation</p>
+                        <p class="event-txt">Effective May 25, 2020 until further notice (all operated by speedboat)</p>
+                        <span class="event-time">8:00 am  -  11:00 am</span>
+                     </div>
+                  </div>
+               </div>
+               <div class="item">
+                  <div class="event-area-3">
+                     <div class="event-date"><span>15</span> <small>March</small></div>
+                     <div class="event-details">
+                        <p class="ev-title">Cruise Event Land and Sea Vacation</p>
+                        <p class="event-txt">Effective May 25, 2020 until further notice (all operated by speedboat)</p>
+                        <span class="event-time">8:00 am  -  11:00 am</span>
+                     </div>
+                  </div>
+               </div>
+               <div class="item">
+                  <div class="event-area-2">
+                     <div class="event-date"><span>15</span> <small>March</small></div>
+                     <div class="event-details">
+                        <p class="ev-title">Cruise Event Land and Sea Vacation</p>
+                        <p class="event-txt">Effective May 25, 2020 until further notice (all operated by speedboat)</p>
+                        <span class="event-time">8:00 am  -  11:00 am</span>
+                     </div>
+                  </div>
+               </div>
+               <div class="item">
+                  <div class="event-area-3">
+                     <div class="event-date"><span>15</span> <small>March</small></div>
+                     <div class="event-details">
+                        <p class="ev-title">Cruise Event Land and Sea Vacation</p>
+                        <p class="event-txt">Effective May 25, 2020 until further notice (all operated by speedboat)</p>
+                        <span class="event-time">8:00 am  -  11:00 am</span>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <img class="bottom-layer-bg" src="img/bottom-layer.png"> 
+      </section>
+      <section id="latest-news">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12 text-center">
+                  <h1 class="headings">Latest News</h1>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-md-6">
+                  <img src="img/lat-news-img1.jpg" class="lat_n_img">
+                  <p class="txt">Centuries, but also the leap into electronic typesetting, remaining essentially</p>
+                  <span class="news-date">22 October 2020</span>
+               </div>
+               <div class="col-md-6">
+                  <div class="media active mb-3">
+                     <img src="img/lat-news-mini-img1.jpg" class="mr-3">
+                     <div class="media-body">
+                        <p>Centuries, but also the leap into electronic typesetting, remaining essentially</p>
+                        <span class="news-date">22 October 2020</span>
+                     </div>
+                  </div>
+                  <div class="media mb-3">
+                     <img src="img/lat-news-mini-img1.jpg" class="mr-3">
+                     <div class="media-body">
+                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots </p>
+                        <span class="news-date">05 August 2020</span>
+                     </div>
+                  </div>
+                  <div class="media mb-3">
+                     <img src="img/lat-news-mini-img1.jpg" class="mr-3">
+                     <div class="media-body">
+                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots </p>
+                        <span class="news-date">05 August 2020</span>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section id="our-partner">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12 text-center">
+                  <h1 class="headings">Our partners</h1>
+                  <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32.</p>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-md-12 text-center">
+                  <div class="owl-carousel partner-carousel-js owl-theme">
+                     <div class="item"><img src="img/partner-sect-img-1.jpg"></div>
+                     <div class="item"><img src="img/partner-sect-img-2.jpg"></div>
+                     <div class="item"><img src="img/partner-sect-img-3.jpg"></div>
+                     <div class="item"><img src="img/partner-sect-img-4.jpg"></div>
+                     <div class="item"><img src="img/partner-sect-img-1.jpg"></div>
+                     <div class="item"><img src="img/partner-sect-img-2.jpg"></div>
+                     <div class="item"><img src="img/partner-sect-img-1.jpg"></div>
+                     <div class="item"><img src="img/partner-sect-img-2.jpg"></div>
+                     <div class="item"><img src="img/partner-sect-img-3.jpg"></div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section id="contact-form">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-8">
+                  <h1 class="headings">Send us a message</h1>
+                  <p>The standard chunk of Lorem Ipsum used since the 1500s is 
+                     reproduced below for those interested. Sections 1.10.32.
+                  </p>
+                  <form>
+                     <div class="row">
+                        <div class="col-md-6 mb-2">
+                           <input type="text" class="form-control" placeholder="Name">
+                        </div>
+                        <div class="col-md-6 mb-2">
+                           <input type="email" class="form-control" placeholder="Email">
+                        </div>
+                        <div class="col-md-6 mb-2">
+                           <input type="text" class="form-control" placeholder="Subject">
+                        </div>
+                        <div class="col-md-6 mb-2">
+                           <input type="text" class="form-control" placeholder="Phone number">
+                        </div>
+                        <div class="col-md-12 mb-2">
+                           <textarea class="form-control" placeholder="Message" rows="4"></textarea>
+                        </div>
+                        <div class="col-md-12">
+                           <button type="btn" class="btn btn-primary">Send</button>
+                        </div>
+                     </div>
+                  </form>
+               </div>
+               <div class="col-md-4 contact-info-mains">
+                  <div class="contact-info">
+                     <h2 class="heading">Contact info</h2>
+                     <p>There are many variations of passages of Lorem Ipsum available, ... </p>
+                     <ul type="none" class="social-info">
+                        <li class="s_item">
+                           <i class="las la-envelope"></i><a href="#" class="s_link">info@marinepassion.com</a>
+                        </li>
+                        <li class="s_item">
+                           <i class="las la-phone-volume"></i><a href="#" class="s_link">+ (66) 38 197 323</a>
+                        </li>
+                        <li class="s_item">
+                           <i class="las la-map-marker"></i><a href="#" class="s_link"> 9/1 Convent Road, Silom , Bangkok 10500 </a>
+                        </li>
+                     </ul>
+                     <div class="follow">
+                        <h2 class="heading">Follow us</h2>
+                        <ul type="none" class="follow_icons">
+                           <li class="f_item"><a href="#" class="f_link"><i class="lab la-twitter"></i></a></li>
+                           <li class="f_item"><a href="#" class="f_link"><i class="lab la-instagram"></i></a></li>
+                           <li class="f_item"><a href="#" class="f_link"><i class="lab la-facebook"></i></a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <footer id="footer">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-4">
+                  <img src="img/footer-logo.png">
+                  <p class="f_description">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+               </div>
+               <div class="col-md-4">
+                  <h4 class="footer-titles">Useful Links</h4>
+                  <ul type="none" class="f_menus">
+                     <li><a href="#" class="f_link">Contact us</a></li>
+                     <li><a href="#" class="f_link">Terms & Condition</a></li>
+                     <li><a href="#" class="f_link">Privacy Policy</a></li>
+                     <li><a href="#" class="f_link">FAQ</a></li>
+                     <li><a href="#" class="f_link">Rules</a></li>
+                  </ul>
+               </div>
+               <div class="col-md-4">
+                  <h4 class="footer-titles">Sign Up For Our Newsletter </h4>
+                  <p class="f_description">Sign up for our email list to receive news and event announcements.</p>
+                  <input type="email" class="form-control" placeholder="Email Address">
+                  <button class="btn-subscribe"><i class="lab la-telegram-plane"></i>Subscribe</button>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <section id="copyright">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12 text-center">
+                  <p class="copyright-txt">© marinepassion 2021. All rights reserved</p>
+               </div>
+            </div>
+         </div>
+      </section>
+      <script type="text/javascript">
+         var playButton = document.getElementById("play_button");
+         // Event listener for the play/pause button
+         playButton.addEventListener("click", function() {
+         if (video.paused == true) {
+         // Play the video
+         video.play();
+         
+         // Update the button text to 'Pause'
+         playButton.innerHTML = "<i class='las la-pause-circle'></i>";
+         } else {
+         // Pause the video
+         video.pause();
+         
+         // Update the button text to 'Play'
+         playButton.innerHTML = "<i class='las la-play-circle'></i>";
+         }
+         });
+      </script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" ></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js" integrity="sha512-gY25nC63ddE0LcLPhxUJGFxa2GoIyA5FLym4UJqHDEMHjp8RET6Zn/SHo1sltt3WuVtqfyxECP38/daUc/WVEA==" crossorigin="anonymous"></script>
+      <script>
+         // partner Slider
+         $('.partner-carousel-js').owlCarousel({
+         autoplay:true,
+         autoplaySpeed:1500,
+         loop:true,
+         dots: true,
+         margin:20,
+         nav:false,
+         navText : ["<i class='las la-angle-left'></i>","<i class='las la-angle-right'></i>"],
+         responsive:{
+             0:{
+                 items:1
+             },
+             600:{
+                 items:1
+             },
+             1000:{
+              dotsEach: 1,
+                 items:6 
+             }
+         }
+         });
+         $('.owl-carousel').owlCarousel({
+         autoplay:true,
+         autoplaySpeed:1500,
+         loop:true,
+         dots: true,
+         slidesToScroll: 1,
+         margin:20,
+         nav:false,
+         responsive:{
+             0:{
+                 items:1
+             },
+             600:{
+                 items:1
+             },
+             1000:{
+              dotsEach: 1,
+                 items:3
+               
+             }
+         }
+         });
+      </script>
+
+   </body>
+</html>
